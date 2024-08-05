@@ -17,3 +17,11 @@
 .flexbox-direction-column {
     flex-direction: column;
 }
+
+.flexbox-jc-space-between {
+    justify-content: space-between;
+}
+
+.flexbox-flex-basis-100 {
+    flex-basis: 100%;
+}

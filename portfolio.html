@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/images.css">
     <link rel="stylesheet" href="css/fleboxes.css">
+    <link rel="stylesheet" href="css/justifies.css">
     <link rel="stylesheet" href="css/columns.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/containers.css">
@@ -28,17 +29,21 @@
 
 <body>
     <nav class="navbar flexbox flexbox-h-center">
-        <div class="container flexbox flexbox-wrap flexbox-v-center">
-            <div class="navbar-title-column column-80 column-bp-768-40">
+        <!-- Logo -->
+        <div class="navbar-container container flexbox flexbox-wrap flexbox-v-center">
+            <div class="navbar-title-column">
                 <p class="miriam-libre-bold text-normal"></i>REBECCA LA MAGNA</p>
             </div>
 
+            <!-- Hamburger button -->
             <input type="checkbox" id="navbar-hamburger-checkbox">
-            <div class="navbar-hamburger-column column-20 column-bp-768-40">
+
+            <div class="navbar-hamburger-column">
                 <label for="navbar-hamburger-checkbox" class="navbar-hamburger"><i class="fas fa-bars"></i></label>
             </div>
 
-            <div class="navbar-links navbar-links-column column column-bp-768-60">
+            <!-- Navbar links -->
+            <div class="navbar-links-column navbar-links">
                     <a class="miriam-libre-bold color-highlight text-info" href="#home">HOME</a>
                     <a class="miriam-libre-bold color-highlight text-info" href="#services">PROGETTI</a>
                     <a class="miriam-libre-bold color-highlight text-info" href="#contact">CONTATTI</a>
@@ -46,33 +51,31 @@
         </div>
     </nav>
 
-    <div class="flexbox flexbox-h-center flexbox-v-center">
-        <div class="container">
-            <div class="flexbox flexbox-h-center flexbox-v-center flexbox-direction-column" style="text-align: center;">
-                    <img src="images/rebecca-la-magna.jpg" alt="Rebecca La Magna" class="img-myself">
-                    <!--<p class="miriam-libre-bold color-highlight text-info">REBECCA LA MAGNA</p>-->
+    <div class="flexbox flexbox-h-center">
+        <div class="container flexbox flexbox-wrap">
+            <div class="image-container-center flexbox-flex-basis-100">
+                <img src="images/rebecca-la-magna.jpg" alt="Rebecca La Magna" class="image-myself">
+            </div>
+            
+           
+            <div class="column column-bp-768-50">
+                <h1 class="miriam-libre-bold color-highlight">CHI SONO?</h1>
+                <ul class="miriam-libre-regular text-normal">
+                    <li>Lavoratrice, creativa e proattiva.</li>
+                    <li>Specializzata in analisi di dati digitali.</li>
+                    <li>Ambiziosa, entusiasta di continuare a crescere ed evolvere nella professione.</li>
+                    <li>Sviluppo costantemente nuove competenze e abilità.</li>
+                </ul>  
             </div>
 
-            
-            <div class="flexbox flexbox-wrap">
-                <div class="column column-bp-768 padding-15">
-                    <h1 class="miriam-libre-bold color-highlight">CHI SONO?</h1>
-                    <ul class="miriam-libre-regular text-normal">
-                        <li>Lavoratrice, creativa e proattiva.</li>
-                        <li>Specializzata in analisi di dati digitali.</li>
-                        <li>Ambiziosa, entusiasta di continuare a crescere ed evolvere nella professione.</li>
-                        <li>Sviluppo costantemente nuove competenze e abilità.</li>
-                    </ul>  
-                </div>
-                <div class="column column-bp-768 padding-15">
-                    <h1 class="miriam-libre-bold color-highlight">CAPACITÀ E COMPETENZE</h1>
-                    <ul class="miriam-libre-regular text-normal">
-                        <li>Uso dei principali strumenti informatici.</li>
-                        <li>Competenze informatiche.</li>
-                        <li>Buona manualità e precisione</li>
-                        <li>Capacità comunicative e relazionali </li>
-                    </ul>  
-                </div>
+            <div class="column column-bp-768-50">
+                <h1 class="miriam-libre-bold color-highlight">CAPACITÀ E COMPETENZE</h1>
+                <ul class="miriam-libre-regular text-normal">
+                    <li>Uso dei principali strumenti informatici.</li>
+                    <li>Competenze informatiche.</li>
+                    <li>Buona manualità e precisione</li>
+                    <li>Capacità comunicative e relazionali </li>
+                </ul>  
             </div>
         </div>
     </div>

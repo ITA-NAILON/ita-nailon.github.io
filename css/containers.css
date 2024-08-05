@@ -1,5 +1,7 @@
 .container {
     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media (min-width: 768px) {

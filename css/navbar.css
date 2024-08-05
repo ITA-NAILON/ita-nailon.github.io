@@ -1,13 +1,18 @@
 .navbar {
-    min-height: 54px;
-    padding: 1rem;
     background-color: #777777;
+    min-height: 54px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
+.navbar-container {
+    justify-content: space-between;
 }
 
 .navbar-links-column {
     display: none;
     flex-direction: column;
+    flex-basis: 100%;
 }
 
 .navbar-links a {
@@ -41,6 +46,7 @@
 
     .navbar-links-column {
         display: block;
+        flex-basis: auto;
     }
 
     .navbar-hamburger-column {
