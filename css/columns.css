@@ -1,0 +1,29 @@
+.column {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+  
+@media (min-width: 768px) {
+    .column-bp-768{
+        max-width: 40%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+    }
+
+    .column-bp-768-40 {
+        max-width: 40%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 40%;
+    }
+  
+    .column-bp-768-60 {
+        max-width: 60%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 60%;
+    }
+}
