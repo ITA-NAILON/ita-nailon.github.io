@@ -13,3 +13,7 @@
 .flexbox-v-center {
     align-items: center;
 }
+
+.flexbox-direction-column {
+    flex-direction: column;
+}

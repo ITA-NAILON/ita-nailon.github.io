@@ -1,0 +1,10 @@
+.img-myself {
+    max-height: 612px;
+}
+  
+@media (min-width: 768px) {
+    .img-myself {
+        padding-top: 1.5rem;
+        max-width: 612px;
+    }
+}

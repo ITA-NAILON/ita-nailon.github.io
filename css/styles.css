@@ -4,9 +4,15 @@ body {
   margin: auto;
 }
 
+img {
+  max-width:100%;
+  height: auto;
+}
+
 p {
   margin: auto;
 }
+
 
 /* Padding */
 .padding-10 {
