@@ -7,7 +7,7 @@
   
 @media (min-width: 768px) {
     .column-bp-768{
-        max-width: 40%;
+        max-width: 100%;
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 0;
