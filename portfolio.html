@@ -26,17 +26,21 @@
 </head>
 
 <body>
-    <nav class="navbar flexbox flexbox-wrap flexbox-v-center flexbox-h-center">
-        <div class="container flexbox flexbox-wrap flexbox-v-center flexbox-h-center">
-            <div class="column column-bp-768-40">
-                <p class="miriam-libre-bold text-normal"><i class="fa-solid fa-house"></i>REBECCA LA MAGNA</p>
+    <nav class="navbar flexbox flexbox-h-center">
+        <div class="container flexbox flexbox-wrap flexbox-v-center">
+            <div class="navbar-title-column column-80 column-bp-768-40">
+                <p class="miriam-libre-bold text-normal"></i>REBECCA LA MAGNA</p>
             </div>
-            <div class="column column-bp-768-60">
-                <div class="navbar-links">
+
+            <input type="checkbox" id="navbar-hamburger-checkbox">
+            <div class="navbar-hamburger-column column-20 column-bp-768-40">
+                <label for="navbar-hamburger-checkbox" class="navbar-hamburger"><i class="fas fa-bars"></i></label>
+            </div>
+
+            <div class="navbar-links navbar-links-column column column-bp-768-60">
                     <a class="miriam-libre-bold color-highlight text-info" href="#home">HOME</a>
                     <a class="miriam-libre-bold color-highlight text-info" href="#services">PROGETTI</a>
                     <a class="miriam-libre-bold color-highlight text-info" href="#contact">CONTATTI</a>
-                </div>
             </div>
         </div>
     </nav>
