@@ -9,3 +9,8 @@
 .footer i {
     padding-right: 1rem;
 }
+
+.footer a p:hover {
+    transition: color 0.3s ease;
+    color: #FFFFFF; /* Colore al passaggio del mouse */
+}

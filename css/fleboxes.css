@@ -9,17 +9,13 @@
 .flexbox-h-center {
     justify-content: center; 
 }
-  
+
 .flexbox-v-center {
     align-items: center;
 }
 
 .flexbox-direction-column {
     flex-direction: column;
-}
-
-.flexbox-jc-space-between {
-    justify-content: space-between;
 }
 
 .flexbox-flex-basis-100 {
