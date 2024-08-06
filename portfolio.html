@@ -1,82 +1,108 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <!-- Settings -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <!-- Settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/texts.css">
-    <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/images.css">
-    <link rel="stylesheet" href="css/fleboxes.css">
-    <link rel="stylesheet" href="css/justifies.css">
-    <link rel="stylesheet" href="css/columns.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/containers.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/texts.css">
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/images.css">
+        <link rel="stylesheet" href="css/fleboxes.css">
+        <link rel="stylesheet" href="css/justifies.css">
+        <link rel="stylesheet" href="css/columns.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/containers.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <!-- Title -->
-    <title>Portfolio</title>
-</head>
+        <!-- Title -->
+        <title>Portfolio</title>
+    </head>
 
-<body>
-    <nav class="navbar flexbox flexbox-h-center">
-        <!-- Logo -->
-        <div class="navbar-container container flexbox flexbox-wrap flexbox-v-center">
-            <div class="navbar-title-column">
-                <p class="miriam-libre-bold text-normal"></i>REBECCA LA MAGNA</p>
-            </div>
+    <body>
+        <header>
+            <nav class="navbar flexbox flexbox-h-center">
+                <!-- Logo -->
+                <div class="navbar-container container flexbox flexbox-wrap flexbox-v-center">
+                    <div class="navbar-title-column">
+                        <p class="miriam-libre-bold text-normal">REBECCA LA MAGNA</p>
+                    </div>
+    
+                    <!-- Hamburger button -->
+                    <input type="checkbox" id="navbar-hamburger-checkbox">
+    
+                    <div class="navbar-hamburger-column">
+                        <label for="navbar-hamburger-checkbox" class="navbar-hamburger"><i class="fas fa-bars"></i></label>
+                    </div>
+    
+                    <!-- Navbar links -->
+                    <div class="navbar-links-column navbar-links">
+                        <a class="miriam-libre-bold color-white text-info" href="#home">HOME</a>
+                        <a class="miriam-libre-bold color-white text-info" href="#services">PROGETTI</a>
+                        <a class="miriam-libre-bold color-white text-info" href="#contact">CONTATTI</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-            <!-- Hamburger button -->
-            <input type="checkbox" id="navbar-hamburger-checkbox">
-
-            <div class="navbar-hamburger-column">
-                <label for="navbar-hamburger-checkbox" class="navbar-hamburger"><i class="fas fa-bars"></i></label>
-            </div>
-
-            <!-- Navbar links -->
-            <div class="navbar-links-column navbar-links">
-                    <a class="miriam-libre-bold color-highlight text-info" href="#home">HOME</a>
-                    <a class="miriam-libre-bold color-highlight text-info" href="#services">PROGETTI</a>
-                    <a class="miriam-libre-bold color-highlight text-info" href="#contact">CONTATTI</a>
-            </div>
-        </div>
-    </nav>
-
-    <div class="flexbox flexbox-h-center">
-        <div class="container flexbox flexbox-wrap">
-            <div class="image-container-center flexbox-flex-basis-100">
-                <img src="images/rebecca-la-magna.jpg" alt="Rebecca La Magna" class="image-myself">
-            </div>
+        <main class="flexbox flexbox-h-center">
+            <div class="container flexbox flexbox-wrap">
+                <div class="image-container-center flexbox-flex-basis-100">
+                    <img src="images/rebecca-la-magna.jpg" alt="Rebecca La Magna" class="image-myself">
+                </div>
+                
             
-           
-            <div class="column column-bp-768-50">
-                <h1 class="miriam-libre-bold color-highlight">CHI SONO?</h1>
-                <ul class="miriam-libre-regular text-normal">
-                    <li>Lavoratrice, creativa e proattiva.</li>
-                    <li>Specializzata in analisi di dati digitali.</li>
-                    <li>Ambiziosa, entusiasta di continuare a crescere ed evolvere nella professione.</li>
-                    <li>Sviluppo costantemente nuove competenze e abilità.</li>
-                </ul>  
-            </div>
+                <div class="column column-bp-768-50">
+                    <h1 class="miriam-libre-bold color-highlight">CHI SONO?</h1>
+                    <ul class="miriam-libre-regular text-normal">
+                        <li>Lavoratrice, creativa e proattiva.</li>
+                        <li>Specializzata in analisi di dati digitali.</li>
+                        <li>Ambiziosa, entusiasta di continuare a crescere ed evolvere nella professione.</li>
+                        <li>Sviluppo costantemente nuove competenze e abilità.</li>
+                    </ul>  
+                </div>
 
-            <div class="column column-bp-768-50">
-                <h1 class="miriam-libre-bold color-highlight">CAPACITÀ E COMPETENZE</h1>
-                <ul class="miriam-libre-regular text-normal">
-                    <li>Uso dei principali strumenti informatici.</li>
-                    <li>Competenze informatiche.</li>
-                    <li>Buona manualità e precisione</li>
-                    <li>Capacità comunicative e relazionali </li>
-                </ul>  
+                <div class="column column-bp-768-50">
+                    <h1 class="miriam-libre-bold color-highlight">CAPACITÀ E COMPETENZE</h1>
+                    <ul class="miriam-libre-regular text-normal">
+                        <li>Uso dei principali strumenti informatici.</li>
+                        <li>Competenze informatiche.</li>
+                        <li>Buona manualità e precisione</li>
+                        <li>Capacità comunicative e relazionali </li>
+                    </ul>  
+                </div>
             </div>
-        </div>
-    </div>
-</body>
+        </main>
+
+        <footer class="footer flexbox flexbox-h-center">
+            <div class="container flexbox flexbox-wrap justify-content-space-between">
+                <div class="column column-bp-768-auto">
+                    <h3 class="miriam-libre-bold">CONTATTI</h3>
+                    <p class="miriam-libre-regular text-small"><i class="fa-solid fa-phone"></i>+39 3493492347</p>
+                    <p class="miriam-libre-regular text-small"><i class="fa-solid fa-envelope"></i>rebecca.lamagna28@gmail.com</p>
+                </div>
+
+                <div class="column column-bp-768-auto">
+                    <h3 class="miriam-libre-bold">SOCIALS</h3>
+                    <p class="miriam-libre-regular text-small"><i class="fa-brands fa-instagram"></i>rebecca_lamagna</p>
+                    <p class="miriam-libre-regular text-small"><i class="fa-brands fa-facebook"></i>Rebecca La Magna</p>
+                </div>
+
+                <div class="column column-bp-768-auto">
+                    <h3 class="miriam-libre-bold">COPYRIGHT</h3>
+                    <p class="miriam-libre-regular text-small">&copy 2024 REBECCA LA MAGNA</p>
+                    <p class="miriam-libre-regular text-small">All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
