@@ -17,8 +17,8 @@
 }
 
 .navbar-links a:hover {
-    transition: color 0.3s ease;
-    color: #DBFF00; /* Colore al passaggio del mouse */
+    transition: color 0.5s ease;
+    color: #DBFF00;
 }
 
 #navbar-hamburger-checkbox {
