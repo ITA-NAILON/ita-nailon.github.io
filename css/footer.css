@@ -9,7 +9,9 @@
     padding-right: 1rem;
 }
 
+.footer a p {
+    transition: color 0.5s ease;;
+}
 .footer a p:hover {
-    transition: color 0.5s ease;
     color: #DBFF00; /* Colore al passaggio del mouse */
 }

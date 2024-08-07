@@ -1,3 +1,8 @@
+[class^="column"] {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
 .column {
     max-width: 100%;
     flex-basis: 100%;

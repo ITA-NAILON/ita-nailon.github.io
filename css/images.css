@@ -1,15 +1,6 @@
-.image-container-center {
-    text-align: center;
-}
-
 .image-myself {
     max-height: 612px;
-}
-  
-@media (min-width: 768px) {
-    .image-myself {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        max-height: 612px;
-    }
+    height: fit-content;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }

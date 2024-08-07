@@ -17,7 +17,3 @@
 .flexbox-direction-column {
     flex-direction: column;
 }
-
-.flexbox-flex-basis-100 {
-    flex-basis: 100%;
-}
