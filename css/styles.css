@@ -87,11 +87,18 @@ h3 {
 .portfolio-cover {
   height: 100vh;
   color: #FFFFFF;
-  font-size: 10rem;
+  font-size: 8rem;
   text-align: center;
   line-height: 0.1;
   align-content: center;
 }
+
+@media (min-width: 768px) {
+  .portfolio-cover {
+    font-size: 10rem;
+  }
+}
+
 
 .card {
   border: 2px solid #FFFFFF;
