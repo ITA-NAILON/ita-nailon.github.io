@@ -19,6 +19,10 @@
         flex-basis: auto;
     }
     
+    .column-bp-768-33 {
+        max-width: 33.33%;
+        flex-basis: 33.33%;
+    }
     .column-bp-768-50 {
         max-width: 50%;
         flex-basis: 50%;
