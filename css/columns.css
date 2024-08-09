@@ -28,3 +28,10 @@
         flex-basis: 50%;
     }
 }
+
+@media (min-width: 992px) {
+    .column-bp-992-33 {
+        max-width: 33.33%;
+        flex-basis: 33.33%;
+    }
+}
