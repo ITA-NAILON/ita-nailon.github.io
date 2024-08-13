@@ -71,6 +71,10 @@ h3 {
   margin-top: 2.0rem
 }
 
+.margin-top-3-0 {
+  margin-top: 3.0rem
+}
+
 .margin-bottom-1-0 {
   margin-bottom: 1.0rem
 }
@@ -104,6 +108,11 @@ h3 {
 .card img {
   aspect-ratio: 1/1;
   object-fit: cover;
+}
+
+.card .no-aspect-ratio {
+  aspect-ratio: 0 !important;
+  object-fit: contain !important;
 }
 
 .custom-button {
