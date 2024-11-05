@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Title -->
+        <title>SIMONA DI GREGORIO</title>
+
+        <!-- Feather -->
+        <script src="https://unpkg.com/feather-icons"></script>
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav>
+           
+            <div id="navbar" class="container">
+                <p class="navbar-title-column">Simona Di Gregorio</p>
+
+                <input type="checkbox" id="sidebar-active">
+
+                <label for="sidebar-active" class="sidebar-open-btn">
+                    <i style="color:#3E0131" data-feather="menu"></i>
+                </label>
+    
+    
+                <!-- Navbar links -->
+                <div class="sidebar-container">
+                    <label for="sidebar-active" class="sidebar-close-btn">
+                        <i style="color:white" data-feather="arrow-right"></i>
+                    </label>
+                    
+                    <a class="miriam-libre-bold color-highlight text-info" href="./index.html">
+                        <i class="sidebar-icon" data-feather="user"></i>
+                        Profilo
+                    </a>
+                    
+                    <div class="sidebar-separator"></div>
+                    <a class="miriam-libre-bold color-white text-info" href="./portfolio.html">
+                        <i class="sidebar-icon" data-feather="book-open"></i>
+                        Portfolio
+                    </a>
+                    <div class="sidebar-separator"></div>
+                    <a class="miriam-libre-bold color-white text-info" href="#contacts">
+                        <i class="sidebar-icon" data-feather="phone"></i>
+                        Contatti
+                    </a>
+                </div>
+            </div>
+        
+        </nav>
+
+        <!-- Main -->
+        <main>
+            <div class="container main-content padding-main">
+                <h1 class="margin-top-medium text-title font-weight-400">Profilo</h1>
+                <h1 class="margin-top-large font-weight-400 margin-bottom-medium text-subtitle">Chi sono</h2>
+                
+                <div class="flexbox-display flexbox-flex-wrap">
+                    <div class="column column-desktop-40">
+                        <p class="text-paragraph">
+                            Mi chiamo Simona Di Gregorio, ho 22 anni e frequento l’Accademia di Belle Arti di Catania. <br><br>
+                            Sono sempre stata appassionata dell’arte in tutte le sue forme, ho fatto teatro, frequentato il liceo artistico e contemporaneamente il liceo musicale. <br><br>
+                            Adesso grazie alle competenze acquisite in tutti questi anni, mi occupo di illustrazione digitale. <br><br>
+                            Mi contraddistingue il fatto di cambiare facilmente il mio stile ad ogni opera, lo noterai quando guarderai il mio portfolio!
+                        </p>
+                    </div>
+
+                    <div class="column-100 column-desktop-60 flexbox-display margin-top-medium margin-top-none-desktop" style="justify-content: space-around;">
+                        <div class="column-40">
+                            <img src="images/lena.jpg" alt="Lena">
+                        </div>
+                        <div class="column-40">
+                            <img src="images/lena.jpg" alt="Lena">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            
+        </footer>
+
+        <script>
+            feather.replace()
+        </script>
+    </body>
+</html>
